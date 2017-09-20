@@ -5,6 +5,7 @@ import tornado.options
 import tornado.web
 from data import mongodb
 from data import boysDto
+from tornado import gen
 import json
 from bson import json_util
 
@@ -17,27 +18,39 @@ class IndexHandler(tornado.web.RequestHandler):
         self.write(greeting + ', friendly user!')
 
 class CartHandler(tornado.web.RequestHandler):
+    @gen.coroutine
     def get(self):
-        # title = self.get_argument('title')
-        # if(title == "three2B"):
         obj ={u'董效利':29, u'武洪磊':27, u'刘玉良':30}
-        # elif(title == "threeboy"):
-        #     obj = {u'董效利': 29, u'武洪磊': 27, u'刘玉良': 30, u'张冰洁': 27}
-        # else:
-        #     obj ={u'王辉':35}
-        #
-        boys = boysDto.find()
-        print type(boys)
-        for boy in boys:
-            del boy["_id"]
+        boys = yield boysDto.find()
+        obj = [self.remove(boy) for boy in boys]
+        self.write(dict(boys=obj))
 
-        obj = json.dumps(boys)
-        #abc = next(boys, None)
-        #obj = json.dumps(boys)
-        #for boy in boys:
-        #
-        #     print boy.get("surname"), boy.get("name")
+    def remove(self, obj):
+        del obj["_id"]
+        return obj
 
+    @gen.coroutine
+    def post(self):
+        surname = self.get_argument("surname")
+        name = self.get_argument("name")
+        sex = self.get_argument("sex")
+
+        if (not surname or not name or not sex):
+            obj = {
+                "status": False,
+                "msg": "参数缺失"
+            }
+            self.write(obj)
+            return
+
+        boy = {"surname": surname, "name": name, "sex": sex}
+        i = yield boysDto.insert(**boy)
+
+        obj = {
+            "status": i > 0,
+            "msg": ""
+
+        }
         self.write(obj)
 
 
