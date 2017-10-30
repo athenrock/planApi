@@ -16,9 +16,14 @@ from tornado.options import define, options
 
 
 class IndexHandler(tornado.web.RequestHandler):
+    @gen.coroutine
     def get(self):
         greeting = self.get_argument('greeting', 'Hello')
-        self.write(greeting + ', friendly user!')
+        # obj =  {u'董效利': 29, u'武洪磊': 27, u'刘玉良': 30}
+        boys = yield boysDto.find()
+        # obj = [self.remove(boy) for boy in boys]
+        # self.write(greeting + ', friendly user!')
+        self.render("index.html", boys=boys)
 
 
 class CartHandler(tornado.web.RequestHandler):
