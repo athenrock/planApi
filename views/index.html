@@ -3,6 +3,9 @@
 
 
 {% block content %} 这是首页
-{{ boys}}
+{% for boy in boys %}
+<p>{{boy.get("surname")}} {{boy.get("name")}}{{boy.get("sex")}}</p>
+
+{% end %}
 
 {% end %}
