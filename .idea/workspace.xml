@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b744fd05-bfce-4df4-b059-3e5ce9bcbd46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/popper-utils.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/bootstrap/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper-utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper-utils.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper-utils.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper-utils.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/esm/popper.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper-utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper-utils.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper-utils.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper-utils.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/popper.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper-utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper-utils.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper-utils.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper-utils.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugin/popper/umd/popper.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.py" afterPath="$PROJECT_DIR$/application.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/setting.py" afterPath="$PROJECT_DIR$/config/setting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.html" afterPath="$PROJECT_DIR$/views/main.html" />
     </list>
     <ignored path="PlanApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -767,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509361795712</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="学习">
+      <created>1509676840277</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1509676840277</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
