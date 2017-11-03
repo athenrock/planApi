@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Cart Paln {% block title %}{% end %}</title>
+    <link rel="stylesheet" href="{{ static_url('plugin/bootstrap/css/bootstrap.css') }}" type="text/css"/>
+
 </head>
 <body>
 {% block content %}{% end %}
+
+
+<script type="text/javascript" src="{{ static_url('js/jquery-3.2.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ static_url('plugin/popper/umd/popper.js') }}"></script>
+<script type="text/javascript" src="{{ static_url('plugin/bootstrap/js/bootstrap.js') }}"></script>
 </body>
 </html>
