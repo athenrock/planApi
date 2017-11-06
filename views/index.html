@@ -2,9 +2,21 @@
 {% block title %}首页{% end %}
 
 
-{% block content %} 这是首页
-{% for boy in boys %}
-<p>{{ boy.get("surname") }} {{ boy.get("name") }}{{ boy.get("sex") }}</p>
+{% block content %}
+<div class="row">
+    这是首页
+    <section class="row text-center placeholders">
 
-{% end %}
+        {% for boy in boys %}
+        <div class="col-6 col-sm-3 placeholder">
+            {% set sex = "男" if boy.get("sex")==1 or boy.get("sex")=="1"  else "女" %}
+            {% set sexpic =  static_url('images/member_men.png') if boy.get("sex")==1 or boy.get("sex")=="1"  else static_url('images/member_women.png') %}
+            <img src="{{ boy.get("pic",sexpic) }}" width="80" height="80" class="img-fluid rounded-circle"
+                 alt="Generic placeholder thumbnail">
+            <h4>{{ boy.get("surname") }} {{ boy.get("name") }}</h4>
+            <div class="text-muted">{{ sex }}</div>
+        </div>
+        {% end %}
+    </section>
+</div>
 {% end %}
