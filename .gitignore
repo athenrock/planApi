@@ -1,4 +1,4 @@
-
+# Python:
 config/__init__.pyc
 config/setting.pyc
 handler/__init__.pyc
@@ -6,4 +6,6 @@ handler/hello.pyc
 route/__init__.pyc
 route/api.pyc
 route/url.pyc
+*.pyc
 workspace.xml
+static/image/
