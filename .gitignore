@@ -7,6 +7,7 @@ route/__init__.pyc
 route/api.pyc
 route/url.pyc
 *.pyc
-workspace.xml
+
 
 /data/*.pyc
+/.idea
