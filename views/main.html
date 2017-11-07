@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Cart Paln {% block title %}{% end %}</title>
+    <link rel="stylesheet" href="{{ static_url('css/base.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ static_url('plugin/bootstrap/css/bootstrap.css') }}" type="text/css"/>
     {% block style %} {% end %}
 </head>
 <body>
+<div class="container">
+    {% include "nav/nav.html" %}
+
+
 {% block content %}{% end %}
 
+</div>
 
 <script type="text/javascript" src="{{ static_url('js/jquery-3.2.1.min.js') }}"></script>
 <script type="text/javascript" src="{{ static_url('plugin/popper/umd/popper.js') }}"></script>

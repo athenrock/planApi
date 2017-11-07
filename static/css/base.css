@@ -1,2 +1,7 @@
 body {
 }
+
+section {
+    width: 100%;
+    float: left;
+}
